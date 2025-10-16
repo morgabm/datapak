@@ -1,0 +1,10 @@
+{
+  "app_name": "DataPak Test Application",
+  "version": "1.0.0",
+  "features": {
+    "compression": true,
+    "caching": true,
+    "multiple_archives": true
+  },
+  "supported_formats": ["text", "json", "binary", "image"]
+}

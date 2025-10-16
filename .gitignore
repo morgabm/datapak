@@ -1,0 +1,260 @@
+# DataPak Project .gitignore
+
+# Build directories
+build/
+build_*/
+cmake-build-*/
+out/
+bin/
+lib/
+dist/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+*.cmake
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Coverage
+coverage/
+*.gcov
+*.gcno
+*.gcda
+coverage.info
+coverage.xml
+lcov.info
+
+# Package managers
+conan.lock
+conandata.yml
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+.conan/
+
+# vcpkg
+vcpkg_installed/
+*.vcpkg
+
+# Documentation
+docs/
+Doxyfile.bak
+*.dox
+
+# IDEs and Editors
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+*.qm
+.qmake.cache
+.qmake.stash
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+
+# Eclipse CDT
+.autotools
+.cproject
+.metadata
+.project
+.settings/
+
+# Dev-C++
+*.dev
+*.layout
+*.depend
+
+# CodeBlocks
+*.cbp
+*.layout
+*.depend
+
+# Code::Blocks
+*.cb_temp
+
+# KDevelop
+*.kdev4
+.kdev4/
+
+# Archives and packages
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tgz
+*.tbz2
+*.txz
+*.7z
+*.rar
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Python (for any build scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Node.js (for any web-based documentation tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration files
+.env
+.env.local
+.env.*.local
+config.local.*
+
+# DataPak specific files
+*.pak
+test_data/generated/
+tools/output/
+
+# Performance profiling
+*.prof
+perf.data*
+cachegrind.out.*
+callgrind.out.*
+massif.out.*
+
+# Sanitizer outputs
+*.san
+
+# Fuzzing
+crash-*
+leak-*
+oom-*
+slow-unit-*
+timeout-*
+
+# Valgrind
+*.valgrind
+vgcore.*
+
+# Custom build artifacts
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+
+# Security
+*.key
+*.pem
+*.crt
+*.p12
+secrets.txt
+.secrets/
